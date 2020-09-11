@@ -5,6 +5,10 @@
 	text-align: center;
 }
 
+body{
+	background-color: beige;
+}
+
 div header p{
 	
 	top: 12vw;
@@ -79,7 +83,7 @@ ul a:hover + #element1{
 	position: relative;
 	top: 31vw;
 	width: 100%;
-	height: 150vw;
+	height: 100vw;
 	display: block;
 	background-color: #e1dab4;	
 
@@ -87,7 +91,7 @@ ul a:hover + #element1{
 
  h1{
  	position: absolute;
- 	font-size: 400%;
+ 	font-size: 8vw;
  	top: 10vw;
  	width: 79vw;
  	height:  30vw;
@@ -102,7 +106,7 @@ ul a:hover + #element1{
 	display: block;
 	left: 10%;
 	right: 10%;
-	height: 150vw;
+	height: 100vw;
 	width: 80%;
 	
 }
@@ -123,12 +127,12 @@ figcaption{
 }
 
 #fig2 {
-	top: 65vw;
+	top: 55vw;
 	right: 23vw;
 }
 
 #fig3 {
-	top: 60.2vw;
+	top: 50.2vw;
 	left: 21vw;
 }
 
@@ -152,9 +156,9 @@ figcaption{
 	padding-right: 1vw;
 }
 footer{
-	top: 174vw;
+	top: 24vw;
 	background-color: #e1dab4;
-	position: absolute;
+	position: relative;
 
 
 }
@@ -163,7 +167,7 @@ footer img{
 	top: 0vw;
 	position: relative;
 	background-color: beige;
-	margin-top: 0.5vw;
+	padding-top: 1vw;
 	
 	width: 30%;
 }
