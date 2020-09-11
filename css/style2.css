@@ -33,7 +33,7 @@ header img{
 ul{
 	width: 100%;
 	float:right;
-	background-color: lightgray;
+	background-color: #e1dab4;
 	list-style: none;
 
 }
@@ -49,29 +49,130 @@ ul a{
 	
 }
 
-.container{
-	position: absolute;
-	top: 32vw;
-	width: 100%;
-	height: 80%;
+ul a:hover  {
+	background-color: beige;
 	
-	background-color: gray;	
 
 }
 
- img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ul a:hover + #element1{
+	background-color: #e1b812;	
+	display: block;
+
+}
+#element1:hover{
+	display: block;
+}
+#element1{
+	position: absolute;
+	top:  70%;
+	right: 0;
+	width: 10%;
+	
+	background-color: ;
+	text-align: right;
+  	padding: 1vw;
+  	display: none;
+}
+.container{
+	
+	position: relative;
+	top: 31vw;
+	width: 100%;
+	height: 150vw;
+	display: block;
+	background-color: #e1dab4;	
+
+}
+
+ h1{
+ 	position: absolute;
+ 	font-size: 400%;
+ 	top: 10vw;
+ 	width: 79vw;
+ 	height:  30vw;
+ 	
+
   
 }
 
-#first-img{
-	position: absolute;
+.picatext{
+	position: relative;
+	background-color: beige;
+	display: block;
+	left: 10%;
+	right: 10%;
+	height: 150vw;
+	width: 80%;
 	
+}
+
+#first-img{
+	
+	position: relative;
+	top: 33vw;
+	width: 50%;
+	height: 20%;
+}
+
+figcaption{
+	position: relative;
+	top: 33vw;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+#fig2 {
+	top: 65vw;
+	right: 23vw;
+}
+
+#fig3 {
+	top: 60.2vw;
+	left: 21vw;
+}
+
+#second-img{
+	
+	position: absolute;
+	left: 0;
+	top: 63vw;
+	width: 47%;
+	height: 20%;
+	padding-left: 1vw;
+}
+
+#third-img{
+	
+	position: absolute;
+	right: 0;
+	top: 63vw;
+	width: 47%;
+	height: 20%;
+	padding-right: 1vw;
+}
+footer{
+	top: 174vw;
+	background-color: #e1dab4;
+	position: absolute;
 
 
 }
+
+footer img{
+	top: 0vw;
+	position: relative;
+	background-color: beige;
+	margin-top: 0.5vw;
+	
+	width: 30%;
+}
+
+
+
+
+
+
 
 	
 
