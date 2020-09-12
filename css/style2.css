@@ -149,9 +149,10 @@ figcaption{
 	padding-right: 1vw;
 }
 footer{
-	top: 24vw;
-	background-color: #e1dab4;
 	position: relative;
+	
+	background-color: #e1dab4;
+	
 
 
 }
@@ -166,6 +167,16 @@ footer img{
 }
 
 
+#footerindex{
+	top: 30vw;
+}
+
+.textbox{
+	top: 38vw;
+	position: relative;
+	background-color: lightgray;
+	font-family: <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+}
 
 
 
