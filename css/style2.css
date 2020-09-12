@@ -28,7 +28,8 @@ header img{
 
 #headtext{
 	position: absolute;
-	top: 15vw;
+	top: 12vw;
+	left: 2vw;
 	width: 20%;
 	font-size: 2vw;
 	color: #726f62;
@@ -59,24 +60,16 @@ ul a:hover  {
 
 }
 
-ul a:hover + #element1{
-	background-color: #e1b812;	
-	display: block;
-
-}
-#element1:hover{
-	display: block;
-}
-#element1{
+p{
 	position: absolute;
-	top:  70%;
-	right: 0;
-	width: 10%;
-	
-	background-color: ;
-	text-align: right;
-  	padding: 1vw;
-  	display: none;
+	top: 35vw;
+	text-align: left;
+	left: 10vw;
+	right: 10vw;
+}
+
+#p1{
+	font-size: 3vw;
 }
 .container{
 	
